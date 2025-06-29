@@ -29,6 +29,9 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.bo.softtabstop = 2
 
+-- Add directory listing preview
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>", {})
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
