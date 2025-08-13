@@ -1,35 +1,15 @@
-## Plugins
+# Nvim setup
 
-### Catppuccin
+## A complete nvim setup for personal usage
 
-Adds theme to `vim` layout.
+This is a neovim setup that is publicly made available. The following plugins are used:
 
-### Git-integration
-
-Integrates `git` into `vim`.
-
-### Lualine
-
-Customizes status line of `vim`.
-
-### Neo-tree
-
-Adds tree like file system to `vim`.
-
-### Plenary
-
-Helps to install other plugins.
-
-### Telescope
-
-Adds files search option.
-
-### Treesitter  
-
-### Vim-tmux-navigator
-
-Enables `tmux` navigation through `vim` like commands.
-
-### web-devicons
-
-Adds fancy icons to `vim`.
+* Catppuccin
+* Git-integration
+* Lualine
+* Neo-tree
+* Plenary
+* Telescope
+* Treesitter  
+* Vim-tmux-navigator
+* web-devicons
