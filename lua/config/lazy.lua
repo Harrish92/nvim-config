@@ -32,6 +32,24 @@ vim.bo.softtabstop = 2
 -- Add directory listing preview
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>", {})
 
+-- Setup gitsigns.nvim
+vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk_inline<CR>",     {})
+
+-- Setup neo-tree.nvim
+vim.keymap.set("n", "<leader>e", ":Neotree position=float<CR>", {})
+
+-- Setup telescope.nvim
+vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>", {})
+vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>", {})
+vim.keymap.set("n", "<leader>fb", ":Telescope buffers<CR>", {})
+vim.keymap.set("n", "<leader>fh", ":Telescope help_tags<CR>", {})
+
+-- Setup vim-tmux-navigator
+vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>", {})
+vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>", {})
+vim.keymap.set("n", "<leader>fb", ":Telescope buffers<CR>", {})
+vim.keymap.set("n", "<leader>fh", ":Telescope help_tags<CR>", {})
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
