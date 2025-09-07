@@ -4,7 +4,9 @@
 
 This is a neovim setup that is publicly made available. The following plugins are used:
 
+* blink
 * catppuccin
+* friendly-snippets
 * git-integration
 * lazy
 * lualine
